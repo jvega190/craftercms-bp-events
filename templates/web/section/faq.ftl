@@ -2,7 +2,7 @@
 <!-- =========================
     FAQ SECTION
 ============================== -->
-<section id="${model['internal-name']}" class="parallax-section faq-section">
+<@crafter.section id=model['internal-name'] class="parallax-section faq-section">
   <div class="container">
     <div class="row">
 
@@ -55,4 +55,4 @@
 
     </div>
   </div>
-</section>
+</@crafter.section>

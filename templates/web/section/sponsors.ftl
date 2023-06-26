@@ -3,7 +3,7 @@
     SPONSORS SECTION
 ============================== -->
 
-<section id="${model['internal-name']}" class="parallax-section sponsors-section">
+<@crafter.section id=model['internal-name'] class="parallax-section sponsors-section">
   <div class="container">
     <div class="row">
       <div class="wow bounceIn col-md-12 col-sm-12">
@@ -45,4 +45,4 @@
         </#if>
       </@crafter.renderRepeatGroup>
   </div>
-</section>
+</@crafter.section>

@@ -17,7 +17,7 @@
   </div>
 </#macro>
 
-<section id="${model['internal-name']}" class="parallax-section video-section">
+<@crafter.section id=model['internal-name'] class="parallax-section video-section">
   <div class="container">
     <div class="row">
       <#if "left" == model.videoPosition_t><@renderVideo/></#if>
@@ -32,5 +32,5 @@
       <#if "right" == model.videoPosition_t><@renderVideo/></#if>
     </div>
   </div>
-</section>
+</@crafter.section>
 

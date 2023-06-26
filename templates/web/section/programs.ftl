@@ -3,7 +3,7 @@
     PROGRAM SECTION
 ============================== -->
 
-<section id="${model['internal-name']}" class="parallax-section program-section">
+<@crafter.section id=model['internal-name'] class="parallax-section program-section">
   <div class="container">
     <div class="row">
 
@@ -107,6 +107,6 @@
       </#if>
     </div>
   </div>
-</section>
+</@crafter.section>
 
 

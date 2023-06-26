@@ -2,7 +2,7 @@
 <!-- =========================
     INTRO SECTION
 ============================== -->
-<section id="${model['internal-name']}" class="parallax-section intro-section" style="background: url('${model.backgroundImage_s!""}') 50% 0 repeat-y fixed;">
+<@crafter.section id=model['internal-name'] class="parallax-section intro-section" $attributes={'style': 'background: url(' + model.backgroundImage_s!'' + ') 50% 0 repeat-y fixed;'}>
   <div class="container">
     <div class="row">
 
@@ -39,4 +39,4 @@
       </div>
     </div>
   </div>
-</section>
+</@crafter.section>

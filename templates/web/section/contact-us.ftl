@@ -4,7 +4,7 @@
     CONTACT SECTION
 ============================== -->
 
-<section id="${model['internal-name']}" class="parallax-section contact-section" style="background: url('${model.bgImage_s!""}') 50%;">
+<@crafter.section id=model['internal-name'] class="parallax-section contact-section" $attributes={'style': 'background: url(' + model.bgImage_s + ') 50%'} >
   <div class="container">
     <div class="row">
 
@@ -50,4 +50,4 @@
       </div>
     </div>
   </div>
-</section>
+</@crafter.section>

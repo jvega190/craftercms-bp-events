@@ -3,7 +3,7 @@
     SPEAKERS SECTION
 ============================== -->
 
-<section id="speakers" class="parallax-section speakers-section" xmlns="http://www.w3.org/1999/html">
+<@crafter.section id="speakers" class="parallax-section speakers-section">
   <div class="container">
     <div class="row">
 
@@ -40,5 +40,5 @@
       </@crafter.renderRepeatGroup>
     </div>
   </div>
-</section>
+</@crafter.section>
 

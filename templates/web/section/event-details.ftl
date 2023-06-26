@@ -3,7 +3,7 @@
     DETAIL SECTION
 ============================== -->
 
-<section id="${model['internal-name']}" class="parallax-section details-section">
+<@crafter.section id=model['internal-name'] class="parallax-section details-section">
   <div class="container">
     <@crafter.renderRepeatGroup
       $field="detailElements_o"
@@ -22,4 +22,4 @@
       </@crafter.p>
     </@crafter.renderRepeatGroup>
   </div>
-</section>
+</@crafter.section>

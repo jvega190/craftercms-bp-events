@@ -8,7 +8,7 @@
 	</div>
 </#macro>
 
-<section id="${model['internal-name']}" class="parallax-section image-section">
+<@crafter.section id=model['internal-name'] class="parallax-section image-section">
   <div class="container">
     <div class="row">
 
@@ -25,4 +25,4 @@
 
     </div>
   </div>
-</section>
+</@crafter.section>
