@@ -4,7 +4,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>${model.siteTitle_t}</title>
+  <title>${contentModel.siteTitle_t}</title>
   <meta name="description" content="">
   <meta name="author" content="">
   <meta charset="UTF-8">
@@ -46,7 +46,7 @@
         <span class="icon icon-bar"></span>
       </button>
         <@crafter.a $field="pageTitle_t" hreh="#" class="navbar-brand">
-          ${model.pageTitle_t!""}
+          ${contentModel.pageTitle_t!""}
         </@crafter.a>
     </div>
 
@@ -95,7 +95,7 @@
 
       <div class="col-md-12 col-sm-12 social-spacer">
         <@crafter.span $field="copyright_t" class="wow fadeInUp" $attributes={'data-wow-delay': '0.6s'}>
-          ${model.copyright_t!''}
+          ${contentModel.copyright_t!''}
         </@crafter.span>
           <#if (contentModel.socialMedia_o.item)??>
             <ul class="social-icon">
