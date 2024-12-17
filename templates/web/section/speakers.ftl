@@ -10,10 +10,10 @@
       <div class="col-md-12 col-sm-12 wow bounceIn">
         <div class="section-title">
           <@crafter.h2 $field="speakersTitle_t">
-            ${model.speakersTitle_t!''}
+            ${contentModel.speakersTitle_t!''}
           </@crafter.h2>
           <@crafter.p $field="speakersDescription_t">
-            ${model.speakersDescription_t!''}
+            ${contentModel.speakersDescription_t!''}
           </@crafter.p>
         </div>
       </div>

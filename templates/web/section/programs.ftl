@@ -3,17 +3,17 @@
     PROGRAM SECTION
 ============================== -->
 
-<section id="${model['internal-name']}" class="parallax-section program-section">
+<section id="${contentModel['internal-name']}" class="parallax-section program-section">
   <div class="container">
     <div class="row">
 
       <div class="wow fadeInUp col-md-12 col-sm-12" data-wow-delay="0.6s">
         <div class="section-title">
           <@crafter.h2 $field="sectionTitle_t">
-            ${model.sectionTitle_t!''}
+            ${contentModel.sectionTitle_t!''}
           </@crafter.h2>
           <@crafter.p $field="sectionDescription_t">
-            ${model.sectionDescription_t!''}
+            ${contentModel.sectionDescription_t!''}
           </@crafter.p>
         </div>
       </div>

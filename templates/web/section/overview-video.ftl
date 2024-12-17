@@ -17,19 +17,19 @@
   </div>
 </#macro>
 
-<section id="${model['internal-name']}" class="parallax-section video-section">
+<section id="${contentModel['internal-name']}" class="parallax-section video-section">
   <div class="container">
     <div class="row">
-      <#if "left" == model.videoPosition_t><@renderVideo/></#if>
+      <#if "left" == contentModel.videoPosition_t><@renderVideo/></#if>
       <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.6s">
         <@crafter.h3 $field="videoTitle_t">
-          ${model.videoTitle_t!''}
+          ${contentModel.videoTitle_t!''}
         </@crafter.h3>
         <@crafter.div $field="videoDescription_t">
-          ${model.videoDescription_t!''}
+          ${contentModel.videoDescription_t!''}
         </@crafter.div>
       </div>
-      <#if "right" == model.videoPosition_t><@renderVideo/></#if>
+      <#if "right" == contentModel.videoPosition_t><@renderVideo/></#if>
     </div>
   </div>
 </section>

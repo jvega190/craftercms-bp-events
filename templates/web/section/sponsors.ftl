@@ -3,16 +3,16 @@
     SPONSORS SECTION
 ============================== -->
 
-<section id="${model['internal-name']}" class="parallax-section sponsors-section">
+<section id="${contentModel['internal-name']}" class="parallax-section sponsors-section">
   <div class="container">
     <div class="row">
       <div class="wow bounceIn col-md-12 col-sm-12">
         <div class="section-title">
           <@crafter.h2 $field="title_t">
-            ${model.title_t!''}
+            ${contentModel.title_t!''}
           </@crafter.h2>
           <@crafter.span $field="description_html">
-            ${model.description_html!''}
+            ${contentModel.description_html!''}
           </@crafter.span>
         </div>
       </div>
