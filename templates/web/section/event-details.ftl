@@ -3,7 +3,7 @@
     DETAIL SECTION
 ============================== -->
 
-<section id="${model['internal-name']}" class="parallax-section details-section">
+<section id="${contentModel['internal-name']}" class="parallax-section details-section">
   <div class="container">
     <@crafter.renderRepeatGroup
       $field="detailElements_o"

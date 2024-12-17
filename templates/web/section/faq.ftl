@@ -2,7 +2,7 @@
 <!-- =========================
     FAQ SECTION
 ============================== -->
-<section id="${model['internal-name']}" class="parallax-section faq-section">
+<section id="${contentModel['internal-name']}" class="parallax-section faq-section">
   <div class="container">
     <div class="row">
 
@@ -11,10 +11,10 @@
       <div class="wow bounceIn col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 text-center">
         <div class="section-title">
           <@crafter.h2 $field="title_t">
-            ${model.title_t!''}
+            ${contentModel.title_t!''}
           </@crafter.h2>
           <@crafter.span $field="description_html">
-            ${model.description_html!''}
+            ${contentModel.description_html!''}
           </@crafter.span>
         </div>
       </div>
